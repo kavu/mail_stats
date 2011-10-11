@@ -1,0 +1,8 @@
+Description:
+    Generates simple MailStats gem config initializer and copies MailsStats gem migrations
+
+Example:
+    rails generate mail_stats:install
+
+    This will create:
+        config/initializers/mail_stats.rb

@@ -7,5 +7,9 @@ module MailStats
 	      part.body = self.process(part) if part.content_type =~ /text\/html/ 
 	    end
 	  end
+
+	  def self.process(part)
+	  	part.body.to_s
+	  end
 	end
 end

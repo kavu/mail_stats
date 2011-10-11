@@ -5,9 +5,8 @@ module MailStats
 
     def process_visit(code)
       begin
-        @link = MailStats::Link.find code.base62_decode
-        @link.increment!(:visits)
-        redirect_to @link.url
+        link = visit("link", code)
+        redirect_to link.url
       rescue ActiveRecord::RecordNotFound, NoMethodError
         render :nothing => true, :status => :not_found
       end

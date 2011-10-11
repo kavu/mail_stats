@@ -96,6 +96,7 @@ GEM
       activesupport (~> 3.0)
       railties (~> 3.0)
       rspec (~> 2.6.0)
+    shoulda-matchers (1.0.0.beta3)
     sprockets (2.0.2)
       hike (~> 1.2)
       rack (~> 1.0)
@@ -117,4 +118,5 @@ DEPENDENCIES
   mail_stats!
   rcov (~> 0.9.1)
   rspec-rails (~> 2.6.1)
+  shoulda-matchers (~> 1.0.0.beta3)
   sqlite3

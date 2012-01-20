@@ -115,11 +115,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord-sqlite3-adapter
+  activerecord-jdbcsqlite3-adapter
+  base62 (~> 0.1.4)
   database_cleaner (~> 0.6.7)
   email_spec (~> 1.2.1)
   jruby-openssl
   mail_stats!
+  nokogiri (~> 1.5.0)
+  rails (~> 3.1.1)
   rcov (~> 0.9.11)
   rspec-rails (~> 2.6.1)
   shoulda-matchers (~> 1.0.0.beta3)

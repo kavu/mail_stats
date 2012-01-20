@@ -9,4 +9,5 @@ rvm:
   - rbx-19mode
   - ruby-head
   - ree
+  - rbx-2.0
 script: bundle exec rspec spec

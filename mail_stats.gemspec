@@ -9,11 +9,12 @@ Gem::Specification.new do |s|
   s.version     = MailStats::VERSION
   s.authors     = ["Max Riveiro"]
   s.email       = ["kavu13@gmail.com"]
+  s.license     = "MIT"
   s.homepage    = "http://github.com/kavu/mail_stats"
   s.summary     = "Proof of Concept Rails Engine gem for mail statistics"
   s.description = "This is just PoC Rails Engine gem for collecting mail statistics with a help of the redirect link and the hidden pixel in the body of the mail message."
 
-  s.files = Dir["{app,config,db,lib,spec}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc", "Gemfile", "Gemfile.lock"]
+  s.files = Dir["{app,config,db,lib,spec}/**/*"] + [".rmvrc", ".rspec", "MIT-LICENSE", "Rakefile", "README.rdoc", "Gemfile", "Gemfile.lock"]
 
   s.add_dependency "rails", "~> 3.1.1"
   s.add_dependency "nokogiri", "~> 1.5.0"

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mail_stats (0.0.2)
+    mail_stats (0.0.3)
       base62 (~> 0.1.4)
       nokogiri (~> 1.5.0)
       rails (~> 3.1.1)

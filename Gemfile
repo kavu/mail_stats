@@ -12,7 +12,7 @@ group :development, :test do
   gem "rspec-rails", "~> 2.6.1"
   gem "email_spec", "~> 1.2.1"
   gem "shoulda-matchers", "~> 1.0.0.beta3"
-  gem "database_cleaner", "~> 0.6.7"
+  gem "database_cleaner", "~> 0.7.1"
 end
 
 gem "mail_stats", :path => '.'
